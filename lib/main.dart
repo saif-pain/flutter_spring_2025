@@ -14,7 +14,18 @@ class AppHome extends StatelessWidget {
         appBar: AppBar(
           title: Text("First App Flutter"),
         ),
-        body: Text("This is from body"),
+        body: 
+        Row(
+          
+          children: [
+            Icon(size: 40, Icons.star),
+            Icon(size: 40, Icons.star),
+            Icon(size: 40, Icons.star),
+            Icon(size: 40, Icons.star),
+            Icon(size: 40, Icons.star_border)
+          ]
+        ),
+        
       ),
     );
   }
