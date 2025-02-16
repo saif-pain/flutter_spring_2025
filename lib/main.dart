@@ -15,16 +15,15 @@ class AppHome extends StatelessWidget {
           title: const Text("First App Flutter"),
         ),
         body: Padding(
-          padding: const EdgeInsets.all(16.0), // Adds spacing from the edges
+          padding: const EdgeInsets.all(16.0),
           child: Column(
-            crossAxisAlignment:
-                CrossAxisAlignment.start, // Aligns items to the left
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 "4.0",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
-              const SizedBox(height: 5), // Small space between text and stars
+              const SizedBox(height: 5),
               Row(
                 children: const [
                   Icon(size: 40, Icons.star),
@@ -34,7 +33,7 @@ class AppHome extends StatelessWidget {
                   Icon(size: 40, Icons.star_border),
                 ],
               ),
-              const SizedBox(height: 20), // Space before submit button
+              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
                   print("Submit button pressed");
