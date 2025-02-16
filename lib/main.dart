@@ -16,16 +16,29 @@ class AppHome extends StatelessWidget {
         ),
         body: Container(
           height: double.infinity,
-          child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Icon(size: 40, Icons.star),
-                Icon(size: 40, Icons.star),
-                Icon(size: 40, Icons.star),
-                Icon(size: 40, Icons.star),
-                Icon(size: 40, Icons.star_border)
-              ]),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star_border),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star_border),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star),
+                  Icon(size: 40, Icons.star_border)
+                ]),
+          ),
         ),
       ),
     );
